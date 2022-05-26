@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(#741a66,#b86aac,#741a66);
+    background-attachment: fixed;
+
+}
+
+img{
+   max-width:  600px;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    
+   
+}
+.cardapio p{
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
+  float: right;
+  
+    list-style-position: inside;
+    margin-top: 30px;
+     max-width: 400px;
+    width: 100%;
+    text-align: center;
+    
+}
+.cardapio p:hover{
+    background-color: #b86aac;
+}
+

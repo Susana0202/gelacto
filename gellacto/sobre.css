@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 238, 217),#741a67a6, rgb(255, 238, 217),#741a67a6);
+   
+}
+
+
+
+nav{
+    background-image: linear-gradient(to bottom, rgb(255, 238, 217), #efd7ce);
+    background-color: white;
+   width: 100%;
+   margin: auto;
+
+   padding-top: 50px;
+  
+}
+
+
+nav  img {
+    
+    width: 100%;
+    margin: auto;
+    max-width: 353px;
+    min-width: 70px;
+    margin-top: -30px;
+    display: block;
+}
+.total{
+    border: 2px solid blueviolet;
+}
+
+.todo{
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 900px;
+    margin: auto;
+
+}
+
+.todo img {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+padding-top: 20px;
+  border-radius: 100%;
+          
+    
+}
+
+.texto{
+ width: 100%;
+ font-size: 30px;
+ 
+
+ text-align: center;
+ margin: auto;
+ padding-top: 50px;
+padding-bottom: 50px;
+}
+.texto h1{
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    
+}
+.texto h2{
+font-size: 30px;
+padding: 10px;
+width: 100%;
+color: white;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+.texto p{
+    font-size: 30px;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 800px;
+   text-align: center;
+    display: inline-block;
+    color: white;
+}
+.todo2{
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 900px;
+    margin: auto;
+    height: 1500px;
+}
+.todo2 img{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+
+    border-radius: 100%;
+            
+    
+    
+
+}
+.texto2{
+    width: 100%;
+    font-size: 20px;
+    
+   
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+   padding-bottom: 50px;
+   }
+   .texto2 h1{
+       font-size: 30px;
+       width: 100%;
+       color: white;
+       
+   }
+   .texto2 h2{
+   font-size: 20px;
+   padding: 10px;
+   width: 100%;
+   color: white;
+   max-width: 600px;
+   text-align: center;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   }
+   .texto2 p{
+       font-size: 30px;
+       padding-left: 10px;
+       width: 100%;
+       max-width: 800px;
+      text-align: center;
+       display: inline-block;
+       color: white;
+   }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .slider {
+    
+    display: block;
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+  
+  
+   
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+   
+}
+
+.slider img {
+   
+  height: 300px;
+    width: 100%;
+    max-width: 500px;
+     margin: auto;
+   display: block;
+    text-align: center;
+ 
+   
+    
+   
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: rgb(250, 199, 235);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    
+    height: 15px;
+    position: relative;
+    
+    z-index: 10;
+    border-radius: 20px;
+    margin-top: -35px;
+    width: 100%;
+    max-width: 15px;
+   
+    
+    
+}
+.slider label:hover{
+    
+    background-image: linear-gradient(to left ,#741a66,  rgb(190, 77, 175));
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 68px;
+}
+.slider li:nth-child(4) label {
+    left: 95px;
+}
+.slider li:nth-child(5) label {
+    left: 120px;
+}
+.slider li:nth-child(6) label {
+    left: 150px;
+}
+.slider li:nth-child(7) label {
+    left: 180px;
+}
+.slider img 
+{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+   
+}
+
+
+
+  
+   
+
+
+    </style>
+    <ul class="slider">
+        <h1></h1>
+        <li>
+            <input type="radio" id="slide1" name="slide" checked>
+            <label for="slide1"></label>
+              <img src="Midia/copo-açai.png" />
+        </li>
+        <li>
+            <input type="radio" id="slide2" name="slide">
+            <label for="slide2"> </label>
+              <img src="Midia/cascao.png" />
+        </li>
+        <li>
+            <input type="radio" id="slide3" name="slide">
+            <label for="slide3"></label>
+              <img src="Midia/canudo.png" />
+        </li>
+        <li>
+            <input type="radio" id="slide4" name="slide">
+            <label for="slide4"></label>
+              <img src="Midia/choco.png" />
+        </li>
+        <li>
+            <input type="radio" id="slide5" name="slide">
+            <label for="slide5"></label>
+              <img src="Midia/choco-2.png" />
+        </li>
+        <li>
+            <input type="radio" id="slide6" name="slide">
+            <label for="slide6"></label>
+              <img src="Midia/pote.png" />
+        </li>
+        <li>
+            <input type="radio" id="slide7" name="slide">
+            <label for="slide7"></label>
+              <img src="Midia/picole.png" />
+        </li>
+    </ul>
+</body>
+</html>

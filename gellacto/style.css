@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+body{
+    font-family: gotham, arial, helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #741a66;
+    max-width: 2600px;
+    min-width: 320px;
+
+}
+
+.principal{
+    background-color: #ffffff;
+   padding-bottom: 57px;
+    width: 100%;
+    height: 100%;
+  
+  
+    
+    
+
+
+
+   
+     
+}
+.principal a{
+    color: rgb(253, 252, 255);
+    padding : 20px;
+    text-decoration: none;
+    color: black;
+  margin-top: 15px;
+ 
+ 
+ 
+ 
+ 
+    
+    
+}
+
+
+  img {
+    
+    height: 200px;
+   
+   width: auto;
+    float: left;
+    margin-top: -30px;
+    
+   margin-left: 50px;
+    min-width: 30px;
+}
+
+.fundo{
+    background-image: url(Midia/fundo02.jpg);
+    width: 100%;
+    height: 750px;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   margin-top: -29px;
+   
+}
+.logo{
+    background-image: url(Midia/logo-removebg-preview.png);
+  
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    max-width: 353px;
+    min-width: 70px;
+    margin-top: 20px;
+   
+    
+}
+.roxo{
+    background-color: #741a66;
+  margin-top: 520px;
+  padding-bottom: 150px;
+height: 80px;
+width: 100%;
+
+border-top-left-radius: 100%;
+border-top-right-radius: 100%;
+
+
+  
+}
+
+    
+
+ .roda li{
+    font-size: 1em;
+    display: block;
+  
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: white;
+
+}
+ .roxo .roda a{
+    font-size: 1em;
+    display: block;
+  
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: white;
+}
+ .roda{
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+    margin: auto;
+    
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+
+
+   
+
+.carousel-item a {
+    height: 900px;
+    width: 650px;
+}
+
+.carousel {
+    height: 800px;
+    perspective: 950px;
+    transform: translateY(-30px);
+    background-color: #741a66;
+     margin-left: -40px;
+      
+   
+}
+
+.carousel carousel-item {
+    width: 7050px;
+    margin-top: -30px;
+   
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 200px;
+
+    
+   
+}
